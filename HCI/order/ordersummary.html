@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ORDER SUMMARY</title>
+    <link rel="stylesheet" href="./styles/ordersummary.css">
+</head>
+
+<body>
+
+
+    <div class="navbar">
+        <div class="navbarlogo">
+            <img
+                src="https://media.discordapp.net/attachments/1098128333960642711/1098128418622689332/abstract-creative-circles-lines-geometric-art-background-day-night-concept-can-be-used-as-icon-logo-tattoo-272073384.png?width=595&height=595">
+        </div>
+
+        <input id="input" type="search" placeholder="Sign up and get 100% off on your first order" name="search">
+
+
+        <div class="box">
+            <a class="button" href="#popup1">Log in</a>
+        </div>
+
+        <div id="popup1" class="overlay">
+            <div class="popup">
+                <div class="logo">
+                    <img
+                        src="https://media.discordapp.net/attachments/1098128333960642711/1098128418622689332/abstract-creative-circles-lines-geometric-art-background-day-night-concept-can-be-used-as-icon-logo-tattoo-272073384.png?width=595&height=595">
+                </div>
+                <a class="close" href="#">&times;</a>
+                <div class="typehere">
+                    <div class="usname">
+                        <input type="text" placeholder="Username" name="uname" required>
+                    </div>
+                    <div class="usname">
+                        <input type="password" placeholder="Password" name="psw" required>
+
+                    </div>
+                    <div class="checkbox">
+                        <input type="checkbox" checked="checked">
+                        <p>
+                            Remember me
+                        </p>
+                    </div>
+
+
+
+                </div>
+                <div class="loginfooter">
+                    <button type="submit" id="signin-button">Sign in</button>
+                </div>
+
+
+
+                <div class="footer">
+                    <div class="signup">
+                        <p>
+                            Don't have an account?
+                        </p>
+                        <a href="#popup2">Sign up</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div id="popup2" class="overlay">
+            <div class="popup">
+                <div class="logo">
+                    <img
+                        src="https://media.discordapp.net/attachments/1098128333960642711/1098128418622689332/abstract-creative-circles-lines-geometric-art-background-day-night-concept-can-be-used-as-icon-logo-tattoo-272073384.png?width=595&height=595">
+                </div>
+                <a class="close" href="#">&times;</a>
+
+                <div class="content">
+                    <div class="typehere1">
+
+                        <div class="usname">
+                            <input type="text" placeholder="Username" name="uname" required>
+                        </div>
+                        <div class="usname">
+                            <input type="text" placeholder="Email" name="email" required>
+                        </div>
+
+                        <div class="usname">
+                            <input type="password" placeholder="Password" name="psw" required>
+                        </div>
+
+                        <div class="loginfooter1">
+                            <button type="submit" id="signup-button">Sign up</button>
+                        </div>
+                        <div class="footer">
+                            <div class="login">
+                                <p>
+                                    Already have an account?
+                                </p>
+                                <a href="#popup1">Login</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="left">
+
+
+
+            <h1>
+                ORDER SUMMARY
+            </h1>
+
+
+
+            <div class="product">
+                <p>
+                    Product
+                </p>
+
+                <p>
+                    Price
+                </p>
+            </div>
+
+            <div class="Hline"></div>
+
+
+            <div class="col-2">
+
+
+                <div class="resibo">
+                    <img
+                        src="https://images.contentstack.io/v3/assets/blt5bbf09732528de36/bltf76d39e55e8e35af/642f247574d71410bfac48bd/APEX-Kaisa_Front_Shot_2.png">
+                </div>
+
+
+                <div class="litright">
+
+
+                    <div class="title">
+
+
+                        <p>
+                            Title:
+                        </p>
+
+                        <b>
+                            APEX Kai'Sa
+                        </b>
+                    </div>
+
+                    <div class="title1">
+                        <p>
+                            Qty
+                        </p>
+
+
+                        <input type="number" min="1">
+                        
+
+                        <a href="./index.html">Cancel</a>
+                    </div>
+
+
+                </div>
+
+
+            </div>
+
+
+            <div class="Hline"></div>
+
+
+
+
+
+
+        </div>
+
+        <div class="right">
+
+            <div class="checkout">
+
+                <p>
+                    Subtotal (1 item)
+                </p>
+                <a href="#">Checkout</a>
+            </div>
+
+            
+            <footer>
+                <p>
+                    Please review to ensure that the details are correct before you proceed
+                </p>
+            </footer>
+
+        </div>
+
+
+
+    </div>
+
+
+
+
+
+</body>
+
+</html>
