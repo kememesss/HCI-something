@@ -27,3 +27,4 @@ signupButton.addEventListener("click", function(event) {
     document.querySelector("#popup2 .close").click(); // close the modal
   }
 });
+
